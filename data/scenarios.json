@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ars-basic",
+    "title": "ARS 시스템 이용",
+    "description": "기본적인 ARS 시스템을 이용해 원하는 서비스를 선택하는 연습",
+    "level": 1,
+    "category": "ars",
+    "script": {
+      "userRole": "서비스 이용자",
+      "objective": "ARS를 통해 원하는 부서로 연결되기",
+      "context": "은행 고객센터에 전화를 걸어 계좌 잔고 조회를 하려고 합니다.",
+      "keyPoints": ["번호 선택", "메뉴 듣기", "올바른 선택"],
+      "possibleResponses": ["안내 멘트 듣기", "번호 입력하기", "다시 듣기 요청"]
+    },
+    "difficulty": {
+      "contentAmount": 1,
+      "speechSpeed": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "delivery-inquiry",
+    "title": "택배 문의",
+    "description": "택배 배송 상태를 문의하고 정보를 확인하는 연습",
+    "level": 2,
+    "category": "delivery",
+    "script": {
+      "userRole": "택배 수령인",
+      "objective": "택배 배송 상태 확인 및 재배송 요청",
+      "context": "온라인 쇼핑몰에서 주문한 상품이 배송 예정일을 넘겼습니다.",
+      "keyPoints": ["운송장 번호 제공", "배송 상태 문의", "재배송 요청"],
+      "possibleResponses": ["운송장 번호 말하기", "주소 확인하기", "재배송 일정 협의"]
+    },
+    "difficulty": {
+      "contentAmount": 2,
+      "speechSpeed": 1,
+      "complexity": 2
+    }
+  },
+  {
+    "id": "food-order",
+    "title": "음식 배달 주문",
+    "description": "음식점에 전화로 배달 주문을 하는 연습",
+    "level": 3,
+    "category": "order",
+    "script": {
+      "userRole": "주문 고객",
+      "objective": "원하는 음식을 주문하고 배달 정보 전달",
+      "context": "중국집에 전화해서 짜장면과 탕수육을 주문하려고 합니다.",
+      "keyPoints": ["메뉴 선택", "수량 확인", "주소 전달", "결제 방법"],
+      "possibleResponses": ["메뉴 주문하기", "주소 말하기", "전화번호 알려주기", "요청사항 전달"]
+    },
+    "difficulty": {
+      "contentAmount": 3,
+      "speechSpeed": 2,
+      "complexity": 3
+    }
+  },
+  {
+    "id": "complaint-call",
+    "title": "서비스 불만 제기",
+    "description": "받은 서비스에 대한 불만을 정중하게 제기하는 연습",
+    "level": 4,
+    "category": "complaint",
+    "script": {
+      "userRole": "불만 고객",
+      "objective": "서비스 문제점을 설명하고 해결방안 요청",
+      "context": "온라인 쇼핑몰에서 구매한 제품이 파손된 상태로 도착했습니다.",
+      "keyPoints": ["문제 상황 설명", "증거 제시", "해결방안 요청", "보상 협의"],
+      "possibleResponses": ["상황 설명하기", "주문번호 제공", "사진 전송 약속", "교환/환불 요청"]
+    },
+    "difficulty": {
+      "contentAmount": 4,
+      "speechSpeed": 2,
+      "complexity": 4
+    }
+  },
+  {
+    "id": "emergency-call",
+    "title": "응급 상황 신고",
+    "description": "응급 상황 발생 시 119나 112에 신고하는 연습",
+    "level": 5,
+    "category": "emergency",
+    "script": {
+      "userRole": "신고자",
+      "objective": "응급 상황을 신속하고 정확하게 신고",
+      "context": "길에서 교통사고를 목격했습니다. 부상자가 있어 보입니다.",
+      "keyPoints": ["상황 요약", "위치 정보", "부상자 상태", "신고자 정보"],
+      "possibleResponses": ["사고 상황 설명", "정확한 주소 알려주기", "부상자 상태 전달", "추가 조치 문의"]
+    },
+    "difficulty": {
+      "contentAmount": 5,
+      "speechSpeed": 3,
+      "complexity": 5
+    }
+  }
+]
